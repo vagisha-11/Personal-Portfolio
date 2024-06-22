@@ -1,0 +1,95 @@
+@media only screen and (max-width:1100px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Playfair Display", serif;
+        width: 100vw;
+    
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        font-size: 10px;
+
+    }
+
+    
+
+    .left img {
+        width: 60px;
+        display: block;
+        margin: auto;
+
+    }
+    #a{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding: 2px;
+
+    }
+    .sub {
+        font-size: 15px;
+        text-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sub p{
+        line-height: 1.5;
+        margin: 0px;
+        padding: 0px;
+        color:black;
+
+    }
+    #a button{
+        margin:0px
+    }
+    #projects{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .image-card{
+        
+        margin-bottom: 200px;
+    }
+    #aboutme{
+        flex-direction: column;
+    }
+    .intro{
+        width: 100%;
+        margin-left: 0px;
+        padding: 5px;
+        text-wrap: wrap;
+
+    }
+    .intro p{
+        font-size: 18px;
+       
+        
+    }
+    .intro h3{
+        font-size: 20px;
+    }
+    .symbols{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .symbols img {
+        width:100px;
+    }
+    .symbols div{
+        align-items: center;
+    }
+   
+
+}
